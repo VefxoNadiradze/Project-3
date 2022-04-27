@@ -1,0 +1,159 @@
+.title-section{
+    margin-top: 70px;
+}
+
+.title-div{
+    text-align: center;
+}
+
+.title-div > h2{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #081828;
+}
+
+.title-div > h2:after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #0167f3;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+
+.title-div > p{
+    font-family: sans-serif;
+    width: 50%;
+    margin: 20px auto;
+    color: #888;
+}
+
+
+.contact-section{
+    margin-top: 70px;
+}
+
+.icon{
+    font-size: 30px;
+    color: #0167F3;
+}
+
+.contact-text{
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 17px;
+    color: #081828;
+}
+
+p{
+    color: #888;
+    margin: 5px 0;
+}
+
+.call-us{
+    margin: 20px 0;
+}
+
+.call-us > a{
+    text-decoration: none;
+    color: #888;
+    margin: 5px 0;
+    transition: 0.5s ease;
+    display: block;
+}
+
+.call-us > a:hover{
+    color: #0167f3;
+}
+
+
+.mail > a{
+    text-decoration: none;
+    color: #888;
+    margin: 5px 0;
+    transition: 0.5s ease;
+    display: block;
+}
+
+.mail > a:hover{
+    color: #0167f3;
+}
+
+
+
+.registration-div{
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 30px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.registration-div > form{
+    display: flex;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.registration-div > form > input{
+    margin: 0 10px;
+    width: 100%;
+    padding: 14px ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #e6e2f5;
+    color: #333;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.registration-div > form > input:focus{
+    border: 1px solid #0167f3;
+}
+
+.registration-div > form > textarea{
+    width: 100%;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #e6e2f5;
+    color: #333;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.registration-div > form > textarea:focus{
+    border: 1px solid #0167f3;
+}
+
+
+@media screen and (max-width:991px){
+    .registration-div{
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .registration-div > form{
+        display: block;
+        margin: 5px 0;
+    }
+
+    .registration-div > form > input{
+        margin: 10px ;
+    }
+}

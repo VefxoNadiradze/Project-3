@@ -1,0 +1,201 @@
+.login-col{
+    margin: 50px auto;
+}
+
+.login-div{
+    border: 1px solid #e6e6e6;
+    padding: 42px;
+    box-shadow: 0 5px 40px #00000008;    
+    border-radius: 5px;
+}
+
+.login-title > h5{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.login-title > p{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #888;
+    margin: 15px 0;
+}
+
+.social-media-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.social-media-links > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.social-media-links > li > .facebook-a{
+    border: 2px solid #3b5998;
+    color: #3b5998;
+}
+
+.social-media-links > li > .facebook-a:hover{
+    background-color: #3b5998;
+    color: white;
+}
+
+
+.social-media-links > li > .twitter-a{
+    border: 2px solid #55acee;
+    color: #55acee;
+}
+
+.social-media-links > li > .twitter-a:hover{
+    background-color: #55acee;
+    color: white;
+}
+
+.social-media-links > li > .google-a{
+    border: 2px solid #dd4b39;
+    color: #dd4b39;
+}
+.social-media-links > li > .google-a:hover{
+    background-color: #dd4b39;
+    color: white;
+}
+
+.or-div{
+    position: relative;
+    text-align: center;
+    color: #888;
+}
+
+.or-div:after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #888;
+    transform: translateY(-50%);
+}
+
+.or-div:before{
+    content: ' ';
+    position: absolute;
+    right:  0;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #888;
+    transform: translateY(-50%);
+}
+
+
+
+.inputs-div > form > label{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #888;
+    font-size: 15px;
+}
+
+.inputs-div > form > input{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 5px;
+    border: 1px solid #888;
+    outline: none;
+}
+
+.inputs-div > form > #Password-label{
+    margin-top: 20px;
+}
+
+.remember-forgotPas{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-forgotPas > label{
+    font-size: 15px;
+    color: #888;
+}
+
+.remember-forgotPas > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #888;
+    transition: 0.5s ease;
+    font-weight: 600;
+}
+
+.remember-forgotPas > a:hover{
+    color: #3b5998;
+}
+
+.login-btn{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #0167f3;
+    border: 1px solid #0167f3;
+    color: white;
+    transition: 0.5s ease;
+    font-weight: 600;
+}
+
+.login-btn:hover{
+    border: 1px solid #081828;
+    background-color: #081828;
+}
+
+.register-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.register-div > p{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    margin: 0 ;
+}
+
+
+@media screen and (max-width:767px){
+    .social-media-links{
+        display: block;
+    }
+
+    .social-media-links > li > a{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px){
+    .remember-forgotPas{
+        display: block;
+    }
+    .register-div {
+        display: block;
+    }
+}

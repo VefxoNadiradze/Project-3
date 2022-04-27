@@ -1,0 +1,218 @@
+.product-section{
+    margin-top: 50px;
+}
+
+.produc-par-div{
+    border: 1px solid #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.about-product{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 20px 5px;
+}
+
+.product-name{
+    text-align: center;
+      width: 40%;
+}
+
+.product-name > h6{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+.quantiti{
+    text-align: center;
+    width: 15%;
+}
+
+
+.quantiti > h6{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.subtotal{
+    text-align: center;
+    width: 15%;
+}
+
+.subtotal > h6{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+.discount{
+    text-align: center;
+    width: 15%;
+}
+
+.discount> h6{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.remove{
+    text-align: center;
+    width: 15%;
+}
+
+
+.remove > h6{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+.product{
+    display: flex;
+    align-items: center;
+    padding: 23px 13px;
+}
+
+.product-img-txt{
+    display: flex;
+    width: 40%;
+}
+
+.product-img-txt > img{
+    height: 59px;
+}
+
+.product-text{
+    margin-left: 20px;
+}
+
+.product-text > a{
+    text-decoration: none;
+    transition: 0.5s ease;
+    color: #333;
+}
+.product-text > a:hover{
+    color: #0167f3;
+}
+
+.product-text > span{
+    display: block;
+    color: #888;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.product-text > span > em{
+    color: #555;
+}
+
+.product-quantiti{
+    width: 15%;
+    text-align: center;
+}
+
+.product-quantiti > select{
+    padding: 12px 2px;
+    width: 77%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-quantiti > select > option{
+    padding: 20px;
+}
+
+.product-Subtotal{
+    width: 15%;
+    text-align: center;
+}
+
+.product-Subtotal > h6{
+    color: #888;
+   font-family: sans-serif;
+}
+
+
+.product-discount{
+    width: 15%;
+    text-align: center;
+}
+
+.product-discount > h6{
+    color: #888;
+   font-family: sans-serif;
+}
+
+.remove-2{
+    text-align: center;
+    width: 15%;
+}
+
+.remove-2> span{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.prod-2{
+    border-top: 1px solid #eee;
+}
+
+
+
+@media screen and (max-width:767px){
+    .about-product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .about-product > div{
+        margin: 5px 0;
+    }
+
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+    .product > div{
+        margin: 7px 0;
+        width: 59%;
+    }
+
+    .product-img-txt{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .product-text > span{
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width:420px){
+    .product > div{
+        margin: 7px 0;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .product > div{
+        margin: 7px 0;
+        width: 100%;
+    }
+}

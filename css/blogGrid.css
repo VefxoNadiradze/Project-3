@@ -1,0 +1,258 @@
+.blogGrid-section{
+    margin-top: 50px;
+}
+
+.card-1{
+    margin: 15px 0;
+}
+
+.card-1 > .card-img {
+    overflow: hidden;
+}
+.card-1 > .card-img  > img{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+.card-1:hover  > .card-img  > img{
+    transform: scale(1.1);
+}
+
+.card-1 > .card-description {
+    padding: 13px 15px;
+}
+
+.card-1 > .card-description > a {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+.card-1 > .card-description > .blog-a-1 {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #888;
+    margin: 5px 0;
+}
+
+.card-1 > .card-description > .blog-a-2 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.card-1 > .card-description > .blog-a-2:hover {
+    color: #0167f3;
+}
+
+.card-1 > .card-description > p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-1 > .card-description > button {
+    border: 1px solid #888;
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.card-1 > .card-description > button:hover{
+    background-color: #0167f3;
+color: white;
+border: 1px solid #0167f3;
+}
+
+
+.saerch-div{
+    padding: 35px 50px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+.saerch-div > h6{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.saerch-div > form{
+    position: relative;
+}
+
+.saerch-div > form > input{
+    width: 100%;
+}
+
+
+.saerch-div > form > input {
+    border: 1px solid #e5e5e5;
+    padding: 12px 9px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.saerch-div > form > button{
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    cursor: pointer;
+    width: 41px;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid #0167f3;
+    background-color: #0167f3;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.saerch-div > form > button:hover{
+    background-color: #081828;
+    border: 1px solid #081828;
+}
+
+
+.posts-div{
+    margin: 50px 0;
+    padding: 35px 30px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+.posts-div > h6{
+    font-family: sans-serif;
+padding-bottom: 20px;
+font-weight: bold;
+}
+
+.post-1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.pst-1{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+.post-img{
+    width: 100px;
+    height: 80px;
+}
+
+.post-img > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.post-text{
+    margin-left: 20px;
+    width: 80%;
+}
+
+.post-text > p{
+    font-weight: 400;
+font-size: 13px;
+  color: #888;
+  padding: 0;
+  margin: 0;
+}
+
+.post-text > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #081828;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.post-text > a:hover{
+    color: #0167f3;
+}
+
+.categories-div{
+    padding: 35px 50px;
+border-radius: 5px;
+border: 1px solid #e7e7e7;
+margin-bottom: 50px ;
+}
+
+
+.categories-div > h6{
+ font-family: sans-serif;
+padding-bottom: 20px;
+font-weight: bold;
+}
+
+.categories-div > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+
+.categories-div > ul > li > a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    color: #888;
+    transition: 0.5s ease;
+    font-weight: 600;
+}
+
+.categories-div > ul > li > a:hover{
+    color: #0167f3;
+}
+.categories-div > ul > li > a:hover span{
+    color: #888;
+
+}
+
+
+.popular-tags{
+    padding: 35px 50px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+.popular-tags > h6{
+    font-family: sans-serif;
+   padding-bottom: 20px;
+   font-weight: bold;
+}
+
+.popular-tags > ul{
+    padding: 0;
+    list-style: none;
+}
+
+.popular-tags > ul > li{
+    display: inline-block;
+}
+
+
+
+.popular-tags > ul > li > a{
+    display: block;
+    margin-top: 7px;
+    margin-right: 8px;
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid #e5e5e5;
+    color: #888;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.popular-tags > ul > li > a:hover{
+    background-color: #0167f3;
+    border:1px solid #0167f3;
+    color: white;
+}
